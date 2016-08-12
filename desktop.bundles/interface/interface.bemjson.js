@@ -12,7 +12,26 @@ module.exports = {
     content : [
         {
             block : 'header',
-            content: 'header here'
+            content: [
+                {
+                    block: 'head-menu',
+                    content: [
+                        {
+                            block: 'left-part',
+                            content: 'left menu'
+                        },
+                        {
+                            block: 'middle-part',
+                            content: 'middle icon'
+                        },
+                        {
+                            block: 'right-part',
+                            content: 'right menu'
+                        }
+
+                    ]
+                }
+            ]
         },
         {
             block : 'feed',
