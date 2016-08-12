@@ -14,7 +14,7 @@ module.exports = {
             block : 'header',
             content: [
                 {
-                    block: 'head-menu',
+                    block: 'header-menu',
                     content: [
                         {
                             block: 'left-part',
@@ -39,7 +39,30 @@ module.exports = {
         },
         {
             block : 'footer',
-            content: 'footer here'
+            content: [
+                {
+                    block: 'footer-menu',
+                    content: [
+                        {
+                            block: 'footer-menu-item',
+                            content: 'item 1'
+                        },
+                        {
+                            block: 'footer-menu-item',
+                            content: 'item 2'
+                        },
+                        {
+                            block: 'footer-menu-item',
+                            content: 'item 3'
+                        },
+                        {
+                            block: 'footer-menu-item',
+                            content: 'item 4'
+                        }
+
+                    ]
+                }
+            ]
 
         }
 
