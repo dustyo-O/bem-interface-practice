@@ -5,7 +5,8 @@ module.exports = {
     block : 'page',
     title : 'interface',
     head : [
-        { elem : 'css', url : 'interface.min.css' }
+        { elem : 'css', url : 'interface.min.css' },
+        { block: 'font-awesome' }
     ],
     scripts : [{ elem : 'js', url : 'interface.min.js' }],
     mods : { theme : 'islands' },
@@ -57,6 +58,7 @@ module.exports = {
                         },
                         {
                             block: 'footer-menu-item',
+                            mods: { 'fa-icon': 'tachometer' },
                             content: 'item 4'
                         }
 
