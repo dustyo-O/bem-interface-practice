@@ -1,7 +1,7 @@
 /**
  * Created by dusty on 12.08.16.
  */
-({
+module.exports = {
     block : 'page',
     title : 'interface',
     head : [
@@ -25,4 +25,4 @@
         }
 
     ]
-})
+};
