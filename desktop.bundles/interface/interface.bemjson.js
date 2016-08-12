@@ -15,19 +15,25 @@ module.exports = {
             block : 'header',
             content: [
                 {
-                    block: 'header-menu',
-                    content: [
+
+                    block : 'menu',
+                    mods : { theme : 'islands', size : 'm'},
+                    content : [
                         {
-                            block: 'left-part',
-                            content: 'left menu'
+                            block: 'menu-item',
+                            mods: {'fa-icon': 'fa-user-plus'}
                         },
                         {
-                            block: 'middle-part',
-                            content: 'middle icon'
+                            block: 'menu-item',
+                            mods: {'fa-icon': 'fa-twitter'}
                         },
                         {
-                            block: 'right-part',
-                            content: 'right menu'
+                            block: 'menu-item',
+                            mods: {'fa-icon': 'fa-search'}
+                        },
+                        {
+                            block: 'menu-item',
+                            mods: {'fa-icon': 'fa-pencil-square-o'}
                         }
 
                     ]
