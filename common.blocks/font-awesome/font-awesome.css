@@ -229,3 +229,11 @@
 *[class*='minus']:before{
     content: "\f068";
 }
+
+*[class*='search']:before{
+    content: "\f002";
+}
+
+*[class*='twitter']:before{
+    content: "\f099";
+}

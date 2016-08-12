@@ -15,21 +15,20 @@ module.exports = {
             block : 'header',
             content: [
                 {
-
                     block : 'menu',
                     mods : { theme : 'islands', size : 'm'},
                     content : [
                         {
                             block: 'menu-item',
-                            mods: {'fa-icon': 'fa-user-plus'}
+                            mods: { 'fa-icon': 'fa-user-plus' }
                         },
                         {
                             block: 'menu-item',
-                            mods: {'fa-icon': 'fa-twitter'}
+                            mods: {'fa-icon': 'twitter'}
                         },
                         {
                             block: 'menu-item',
-                            mods: {'fa-icon': 'fa-search'}
+                            mods: {'fa-icon': 'search'}
                         },
                         {
                             block: 'menu-item',
