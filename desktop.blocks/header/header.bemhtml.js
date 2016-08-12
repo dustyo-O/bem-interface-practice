@@ -2,9 +2,10 @@ block('header')(
     js()(true),
     content()(
         {
-            block : 'menu',
-            mods : { theme : 'islands', size : 'm'},
-            content : [
+            block: 'menu',
+            mix: { block: 'header', elem: 'menu'},
+            mods: { theme: 'islands', size : 'm'},
+            content: [
                 {
                     block: 'menu-item',
                     mods: { 'fa-icon': 'fa-user-plus' }

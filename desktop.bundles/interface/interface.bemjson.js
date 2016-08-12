@@ -19,34 +19,7 @@ module.exports = {
             content: 'feed here'
         },
         {
-            block : 'footer',
-            content: [
-                {
-                    block: 'footer-menu',
-                    content: [
-                        {
-                            block: 'footer-menu-item',
-                            content: 'item 1'
-                        },
-                        {
-                            block: 'footer-menu-item',
-                            content: 'item 2'
-                        },
-                        {
-                            block: 'footer-menu-item',
-                            content: 'item 3'
-                        },
-                        {
-                            block: 'footer-menu-item',
-                            mods: { 'fa-icon': 'tachometer' },
-                            content: 'item 4'
-                        }
-
-                    ]
-                }
-            ]
-
+            block : 'footer'
         }
-
     ]
 };
